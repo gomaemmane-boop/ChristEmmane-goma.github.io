@@ -2,41 +2,35 @@
    VARIABLES & DESIGN TOKENS
    ========================================== */
 
-:root {
-    /* Colors - Warm Dark Theme */
-    --color-bg: #0a0a0a;
-    --color-surface: #151515;
-    --color-surface-elevated: #1f1f1f;
-    --color-text: #e8e8e8;
-    --color-text-muted: #a0a0a0;
-    --color-text-subtle: #666666;
-    
-    /* Accent colors - Warm amber/orange instead of cliché purple */
-    --color-primary: #ff9f40;
-    --color-primary-hover: #ffb366;
-    --color-primary-subtle: rgba(255, 159, 64, 0.1);
-    
-    --color-secondary: #4a9eff;
-    --color-border: #2a2a2a;
-    --color-border-subtle: #1a1a1a;
-    
-    /* Typography */
+::root {
+    --color-bg: #f3f3f3;
+    --color-surface: #ffffff;
+    --color-surface-elevated: #f8f8f8;
+    --color-text: #1f1f1f;
+    --color-text-muted: #5f5f5f;
+    --color-text-subtle: #8a8a8a;
+
+    --color-primary: #1f3f70;         /* bleu logo */
+    --color-primary-hover: #2b548f;
+    --color-primary-subtle: rgba(31, 63, 112, 0.10);
+
+    --color-secondary: #1f8a3a;       /* vert logo */
+    --color-border: #d8d8d8;
+    --color-border-subtle: #ececec;
+
     --font-primary: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'JetBrains Mono', 'Courier New', monospace;
-    
-    /* Spacing */
+
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 4rem;
     --spacing-xl: 6rem;
-    
-    /* Layout */
+
     --container-width: 1200px;
     --border-radius: 8px;
     --border-radius-lg: 16px;
-    
-    /* Transitions */
+
     --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
