@@ -97,15 +97,16 @@ body {
     align-items: center;
 }
 
-.nav-logo {
-    font-family: var(--font-mono);
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--color-primary);
-    text-decoration: none;
-    letter-spacing: -0.02em;
+.logo-image {
+    height: 40px;
+    width: auto;
+    display: block;
+    transition: transform var(--transition-fast);
 }
 
+.logo-image:hover {
+    transform: scale(1.1);
+}
 .nav-links {
     display: flex;
     gap: var(--spacing-md);
